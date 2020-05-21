@@ -1,0 +1,116 @@
+/*
+ * General Styles
+*/
+
+
+body {
+    background: #DDD;
+    font-family: 'Open Sans', arial, sans-serif;
+    background-image: url(../images/bakgrd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  * {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  p {
+    font-size: 1rem; /*16px */
+    line-height: 1.75;
+    margin-bottom: 1.75rem; /*28px */
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  ul li {
+    list-style: decimal inside;
+  }
+
+  /*
+   * Heading Styles
+  */
+
+
+  h1, h2 {
+    font-family: 'Lobster', cursive;
+    color: #e22f8f;
+    text-align: center;
+    margin-bottom: 2rem; /* 32px */
+  }
+
+  h1 {
+
+    font-size: 2.5rem;  /* 40px */
+  }
+
+  h2 {
+    font-size: 2rem; /* 32px */
+  }
+
+  /*
+   * Container Styles
+  */
+
+  .container {
+    width: 37.5rem;  /* 600px */
+    margin: 6.25rem auto;  /* 100px */
+
+  }
+
+  /* Hero styles */
+
+  .us {
+    line-height: 0;
+  }
+
+  .us img {
+    width:100%;
+    border-radius: 1.25rem 1.25rem 0 0;  /*20px 20px 0 0 */
+  }
+
+
+  section.intro, section.contact {
+    padding: 2.5rem;  /* 40px */
+  }
+
+  aside.left {
+    float: left;
+    width: 290px;
+    text-align: right;
+  }
+
+  aside.left img {
+      width: 50%;
+      float: left;
+      padding: 0px;
+  }
+
+  aside.right {
+    float: right;
+  }
+  aside.right img {
+    float: right;
+    width: 300px;
+    padding: 40px;
+  }
+
+  section.intro {
+    background-color: cornsilk;
+  }
+
+  section.contact {
+    background-color: antiquewhite;
+    text-align: center;
+  }

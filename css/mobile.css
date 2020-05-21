@@ -1,0 +1,45 @@
+body {
+    background-image: none;
+    font-size: 100%;
+}
+.container {
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.us img {
+    border-radius: 0rem;
+}
+
+aside.right, aside.left {
+    text-align: center;
+    float: inherit;
+    width: 100%;
+}
+
+.left img {
+    margin: auto;
+}
+
+aside.right img{
+    float: inherit;
+    padding: 0px;
+}
+
+aside.left img {
+    float: inherit;
+    text-align: center;
+    padding: 0px;
+}
+
+
+section.contact {
+    text-align: center;
+    padding: 1.25rem; /*20px */
+}
+
+section.intro {
+    text-align: left;
+    padding: 3.125rem; /*50px */
+}
